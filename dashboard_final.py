@@ -104,7 +104,7 @@ def load_and_preprocess_data(file_path, excel_sheet_name='Sheet1'):
     return df_unpivoted_final
 
 # --- Tải dữ liệu ---
-file_path = r'C:\Users\linh.bt\Downloads\cấu trúc dkm.xlsx' 
+file_path = 'cấu trúc dkm.xlsx' 
 df_processed = load_and_preprocess_data(file_path, excel_sheet_name='Sheet1') 
 
 # --- Giao diện Streamlit ---
